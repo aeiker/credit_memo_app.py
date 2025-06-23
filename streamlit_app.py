@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 # Load API key from environment variable
 load_dotenv()
-client = OpenAI(api_key=os.getenv(""))
+client = OpenAI(api_key=os.getenv("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"))
 
 st.set_page_config(page_title="Credit Memo Generator", layout="wide")
 st.title("📄 AI-Powered Credit Memo Generator")
